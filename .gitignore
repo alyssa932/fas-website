@@ -1,0 +1,16 @@
+# Vendor (e.g. Composer, Bower)
+vendor/*
+!vendor/.gitkeep
+
+# Node Package Manager
+node_modules
+
+# OS Files
+**/.DS_Store
+
+# Compiled files
+# We're compiling css with sass and html with gulp-file-include
+*.html
+!templates/*.html
+css/*.css
+css/*.css.map

@@ -1,0 +1,86 @@
+header {
+	&#header {
+		display: block;
+		color: #fff;
+		background-color: $utd-flame-orange;
+		height: 110px;
+		padding: 25px;
+		margin-bottom: 0px;
+	}
+}
+
+nav {
+
+	&.navbar {
+		border: 0;
+		border-radius: 0;
+		margin-bottom: 0;
+		min-height: 50px;
+	}
+	&.navbar-inverse {
+		border-color: $utd-solar-orange;
+		background-color: $utd-solar-orange;
+	}
+	
+	.navbar-nav {
+	  > li > a {
+    padding-left: 2px;
+    padding-right: 2px;
+    vertical-align: middle;
+    padding-top:15px !important; 
+	padding-bottom:15px !important;
+  }
+}
+}
+
+.nav > li > a:hover {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+@media (min-width: 420px){
+    .navbar li {
+        margin-left : 20px;
+        margin-right : 20px;
+    }
+}
+ 
+#logobox {
+	width: 100%;
+	height: 110px;
+	background-color: $utd-flame-orange; 
+	display: flex;
+	align-items: center;
+
+}
+
+ #utd_logo {
+	display: block;
+	height: auto;
+	float: left;
+	width: 165px;
+	vertical-align: middle;
+	line-height: 75px;
+	@media (max-width: 420px) {
+		width: 120px;
+	}
+}
+
+#wordmark {
+	width: auto;
+	float: right;
+	font-family: Titillium Web, sans-serif;
+	font-weight: 200;
+	font-size: 2.3em;
+	vertical-align: middle;
+	margin-top: 6px;
+
+	@media (max-width: 768px) {
+		font-size: 1.8em;
+	}
+	@media (max-width: 420px) {
+		font-size: 1.3em;
+		margin-top: 10px;
+	}
+}
+
