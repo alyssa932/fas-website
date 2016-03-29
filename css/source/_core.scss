@@ -60,6 +60,11 @@ h5 {
 	padding-bottom: 2px;
 }
 
+.marginal-row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 #bgbox {
 	max-width: 100%;
 }
@@ -135,17 +140,24 @@ figcaption {
 }
 
 #basal-box {
-	display: flex;
 	align-items: center;
-	height: 18vh;
-	width: 100%;
 	background-color: $utd-warm-gray2;
+	padding: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+	.media-object {
+		@media(max-width: $screen-sm-min) {
+			width: 100%;
+		}
+	}
 }
 
-#basal-info p {
-	font-family: Times New Roman;
-	font-size: 1.2em;
-	margin: auto;
+#basal-body {
+	@media(max-width: $screen-sm-min) {
+		display: inherit;
+		width: inherit;
+	}
 }
 
  hr {
