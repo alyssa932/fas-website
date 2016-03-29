@@ -6,6 +6,10 @@ header {
 		height: 110px;
 		padding: 25px;
 		margin-bottom: 0px;
+		@media (max-width: 768px) {
+			height: 70px;
+			padding: 15px;
+		}
 	}
 }
 
