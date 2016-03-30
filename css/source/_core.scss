@@ -25,9 +25,9 @@ li {
 	margin-bottom: 30px;
 }
 
+// This is the subheader, an orange box with white type. 
 h2 {
-	width: 100%;/* core CSS styles */
-
+	width: 100%;
 	background-color: $utd-spark-orange;
 	height: 40px;
 	font-size: 1.4em;
@@ -37,6 +37,7 @@ h2 {
 	line-height: 40px
 }
 
+// Each page has this as the header. Name of page with horizontal rule underneath.
 h3 {
 font-family: Titillium Web,sans-serif;
 font-weight: 300;	
@@ -90,6 +91,7 @@ h5 {
 	text-align: right;
 }
 
+// This is the white box on the home page behind the Welcome header and paragraph.
 .bkgd_box {
 	left: 0px;
 	top: 160px;
@@ -100,7 +102,7 @@ h5 {
 	background-color: #fff;
 	opacity: 0.5;
 }
-
+// This is the blue box behind the image of the doctor on the home page.
 #blue_box {
 	width: 100%;
 	background-color: $utd-sky-blue;
@@ -118,6 +120,7 @@ h5 {
 	padding-bottom: 2%;
 }
 
+// This is the caption on the home page under the image of the doctor.
 figcaption {
 	width: 85%;
 	height: auto;
@@ -126,6 +129,7 @@ figcaption {
 	padding-bottom: 5%;
 }
 
+//Start of speech items on the Diagnosis & Treatment Page
 #speechbox.col-md-3 {
 	background-color: $utd-solar-orange;
 	height: auto;
@@ -138,6 +142,7 @@ figcaption {
 	font-style: italic;
 	font-size: 1.1em;
 }
+//End of speech items on the Diagnosis & Treatment Page
 
 #basal-box {
 	align-items: center;
