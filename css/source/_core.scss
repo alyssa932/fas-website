@@ -77,17 +77,17 @@ h5 {
 	background-repeat: no-repeat;
 	max-width: 100%;
 	height: 400px;
-}
 
-#bgimage h1 {
-	color: $utd-stratos-blue;
-	text-align: right;
-	text-shadow: 1px 1px $utd-warm-gray10;
-}
+	h1 {
+		color: $utd-stratos-blue;
+		text-align: right;
+		text-shadow: 1px 1px $utd-warm-gray10;
+	}
 
-#bgimage p {
-	font-size: 1.2em;
-	text-align: right;
+	p {
+		font-size: 1.2em;
+		text-align: right;
+	}
 }
 
 .bkgd_box {
