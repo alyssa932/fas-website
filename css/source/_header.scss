@@ -24,6 +24,7 @@ nav {
 	&.navbar-inverse {
 		border-color: $utd-solar-orange;
 		background-color: $utd-solar-orange;
+
 	}
 	
 	.navbar-nav {
@@ -80,3 +81,7 @@ nav {
 	}
 }
 
+#link-to-home {
+	text-decoration: none;
+	color: white;
+}
