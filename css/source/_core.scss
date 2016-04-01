@@ -315,6 +315,10 @@ p.intro {
 
 .youtube iframe {
 	margin-right: 1em;
+	@media(max-width: $screen-xs-min){
+		max-width: 100%;
+		height: auto;
+	}
 }
 
 .movie-header caption {
@@ -329,6 +333,10 @@ p.intro {
 	display: flex;
 	align-items: center;
 	margin-top: 2%;
+	@media(max-width: $screen-sm-min) {
+		flex-direction: column;
+	
+	}
 }
 
 .youtube caption {
@@ -341,6 +349,9 @@ p.intro {
 	display: flex;
 	align-items: center;
 	margin-top: 2%;
+	@media(max-width: $screen-sm-min) {
+		flex-direction: column;
+	}
 }
 
 #aphasia-box  {
