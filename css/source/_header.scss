@@ -29,8 +29,8 @@ nav {
 	
 	.navbar-nav {
 		> li > a {
-			padding-left: 8px;
-			padding-right: 8px;
+			padding-left: 12px;
+			padding-right: 12px;
 			vertical-align: middle;
 			padding-top:15px !important; 
 			padding-bottom:15px !important;
@@ -41,8 +41,8 @@ nav {
 
 @media (min-width: 420px){
     .navbar li {
-        margin-left : 10px;
-        margin-right : 10px;
+        margin-left : 0px;
+        margin-right : 0px;
     }
 }
  
