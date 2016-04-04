@@ -183,10 +183,7 @@ figcaption {
 	}
 }
 
- hr {
-	width: 90%;
-	color: #ffffff;
- }
+
 
  .row-fluid {
  	margin-bottom: 80px;
@@ -244,13 +241,14 @@ figcaption {
 
 #callier-box2 {
 	width: 100%;
-	background-color: rgba(233, 131, 0, 0.5);
+	background-color: rgba(255, 182, 18, 0.4);
 	display: table;
 	padding: 20px;
 	box-sizing: border-box;
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
+
 
 #callier img {
 	display: table-cell;
@@ -273,6 +271,10 @@ figcaption {
 	vertical-align: middle;
 	padding-left: 10px;
 	font-size: 1em;
+}
+
+#callier-hr {
+	color: blue;
 }
 
 #fifty {
@@ -357,10 +359,15 @@ p.intro {
 
 #aphasia-box  {
 	padding: 20px;
-	background-color: rgba(255, 182, 18, 0.1);
+	background-color: rgba(255, 182, 18, 0.4);
 }
 
 #modal-header {
 	font-size: 1.5em;
 	font-weight: 800;
 }
+
+ hr {
+	width: 90%;
+	color: blue;
+ }
