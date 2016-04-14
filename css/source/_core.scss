@@ -1,3 +1,6 @@
+a {
+	color: $utd-space-blue;
+	}
 
 audio {
 	width: 95%;
@@ -408,6 +411,11 @@ button.close {
 	background-color: $utd-flame-orange;
 	min-height: 50px;
 	margin-top: 20px;
+	margin-left: 0;
+	padding-left: 0;
+	text-align: center;
+	clear: both;
+
 
 }
 
@@ -415,10 +423,14 @@ button.close {
 	color: white;
 	font-size: .7em;
 	line-height: 50px;
-	padding-top: 5%;
-	text-align: center;
+	padding-top: 8%;
 	@media (max-width: $screen-sm-min) {
-		line-height: 10px;
+		line-height: 5px;
 	}
+}
 
+.list-inline {
+	@media (max-width: $screen-sm-min) {
+		margin-left: -50px;
+	}
 }
