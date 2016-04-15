@@ -11,19 +11,19 @@ RewriteRule ^ - [ENV=BASE:%2]
 
 # trailing slash rule
 RewriteCond %{SCRIPT_FILENAME} !-f
-RewriteRule [^/]$ %{REQUEST_URI}/ [R=302,L]
+RewriteRule [^/]$ %{REQUEST_URI}/ [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^about/samples.html %{ENV:BASE}diagnosis.html [R=302,L]
-RewriteRule ^about/diagnosis.html %{ENV:BASE}diagnosis.html [R=302,L]
-RewriteRule ^about/disorders.html %{ENV:BASE}speech.html [R=302,L]
-RewriteRule ^about/aphasia.html %{ENV:BASE}speech.html [R=302,L]
-RewriteRule ^about/dysarthria.html %{ENV:BASE}speech.html [R=302,L]
-RewriteRule ^about/apraxia.html %{ENV:BASE}speech.html [R=302,L]
-RewriteRule ^about/more.html %{ENV:BASE}speech.html  [R=302,L]
-RewriteRule ^about/.*$ %{ENV:BASE}index.html [R=302,L]
-RewriteRule ^stories/.*$ %{ENV:BASE}FASstories.html [R=302,L]
-RewriteRule ^networking/.*$ %{ENV:BASE}contactus.html [R=302,L]
-RewriteRule ^links/.*$ %{ENV:BASE}moreinformation.html [R=302,L]
-RewriteRule ^about-us/.*$ %{ENV:BASE}contactus.html [R=302,L]
+RewriteRule ^about/samples.html %{ENV:BASE}diagnosis.html [R=301,L]
+RewriteRule ^about/diagnosis.html %{ENV:BASE}diagnosis.html [R=301,L]
+RewriteRule ^about/disorders.html %{ENV:BASE}speech.html [R=301,L]
+RewriteRule ^about/aphasia.html %{ENV:BASE}speech.html [R=301,L]
+RewriteRule ^about/dysarthria.html %{ENV:BASE}speech.html [R=301,L]
+RewriteRule ^about/apraxia.html %{ENV:BASE}speech.html [R=301,L]
+RewriteRule ^about/more.html %{ENV:BASE}speech.html  [R=301,L]
+RewriteRule ^about/.*$ %{ENV:BASE}index.html [R=301,L]
+RewriteRule ^stories/.*$ %{ENV:BASE}FASstories.html [R=301,L]
+RewriteRule ^networking/.*$ %{ENV:BASE}contactus.html [R=301,L]
+RewriteRule ^links/.*$ %{ENV:BASE}moreinformation.html [R=301,L]
+RewriteRule ^about-us/.*$ %{ENV:BASE}contactus.html [R=301,L]
 ## End redirects from old site (< 2016-04-15)
