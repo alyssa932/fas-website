@@ -1,3 +1,7 @@
+body {
+	min-width: $body-min-width;
+}
+
 a {
 	color: $utd-space-blue;
 	}
@@ -101,6 +105,7 @@ h5 {
 	background-position: center center;
 	background-repeat: no-repeat;
 	width: 100vw;
+	min-width: $body-min-width;
 	max-width: 100%;
 	height: 400px;
 
@@ -125,6 +130,7 @@ h5 {
 
 		@media (max-width: $screen-sm) {
 			font-size: 0.8em;
+			margin: 0;
 		}
 	}
 	// This is the white box on the home page behind the Welcome header and paragraph.
