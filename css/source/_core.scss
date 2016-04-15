@@ -29,6 +29,14 @@ li {
 	margin-left: 1%;
 }
 
+.visible-xxs-block {
+	display: none !important;
+
+	@media (max-width: $screen-xs-min) {
+		display: block !important;
+	}
+}
+
 #treatment p {
 	margin-bottom: 30px;
 }
@@ -409,23 +417,45 @@ button.close {
  }
 
 .footer-box {
+	display: flex;
 	background-color: $utd-flame-orange;
 	min-height: 50px;
 	margin-top: 20px;
 	margin-left: 0;
 	padding-left: 0;
+	padding-right: 0;
 	text-align: center;
+	align-content: center;
+	justify-content: center;
 	clear: both;
 
-}
+	.list-inline {
+		margin: 0;
 
-.footer-box li a  {
-	color: white;
-	font-size: .7em;
-	line-height: 50px;
-	padding-top: 8%;
-	@media (max-width: $screen-sm-min) {
-		line-height: 5px;
+		> li:first-of-type {
+			margin-left: 0;
+		}
+
+		li {
+
+			a {
+				color: white;
+				font-size: .7em;
+				line-height: 50px;
+				padding-top: 8%;
+				@media (max-width: $screen-md-min) {
+					line-height: 5px;
+				}
+			}
+
+			@media (max-width: $screen-md-min) {
+				margin-left: 5px;
+			}
+		}
+	}
+
+	@media(max-width: $screen-sm-min) {
+		min-height: 80px;
 	}
 }
 
